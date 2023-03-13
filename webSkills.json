@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "image": "/src/assets/HTML.png"
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "image": "/src/assets/CSS.png"
+  },
+  {
+    "id": 3,
+    "name": "JS",
+    "image": "/src/assets/JS.png"
+  },
+  {
+    "id": 4,
+    "name": "NODE JS",
+    "image": "/src/assets/NODEJS.png"
+  },
+  {
+    "id": 5,
+    "name": "GITHUB",
+    "image": "/src/assets/GITHUB.png"
+  },
+  {
+    "id": 6,
+    "name": "REACT",
+    "image": "/src/assets/REACT.png"
+  },
+  {
+    "id": 7,
+    "name": "TAILWIND CSS",
+    "image": "/src/assets/TAILWIND.png"
+  }
+]

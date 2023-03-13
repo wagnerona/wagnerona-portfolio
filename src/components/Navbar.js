@@ -25,16 +25,16 @@ const Navbar = () => {
             </ul>
 
             <div id='social' className='flex space-x-4' >
-                <a href='/'>
+                <a href='https://www.linkedin.com/in/wagnerona/' target = '_blank' rel="noreferrer">
                     <FaLinkedin />
                 </a>
-                <a href='/'>
+                <a href='https://github.com/wagnerona' target = '_blank' rel="noreferrer">
                     <FaGithub />
                 </a>
-                <a href='/'>
+                <a href='/' target = '_blank' rel="noreferrer">
                     <FaInstagram />
                 </a>
-                <a href='/'>
+                <a href='https://wa.me/+447751862182' target = '_blank' rel="noreferrer">
                     <FaWhatsapp />
                 </a>
             </div>
