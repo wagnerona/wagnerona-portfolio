@@ -11,6 +11,10 @@
     li {
         @apply px-4;
         @apply cursor-pointer;
+        @apply hover:text-red-500 hover:scale-110
+    }
+    a {
+        @apply  hover:text-red-500 hover:scale-110
     }
     /* #social {
         padding: 5px;

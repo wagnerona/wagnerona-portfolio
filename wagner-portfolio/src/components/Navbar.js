@@ -9,7 +9,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-20 bg-black text-gray-300'>
+        <header className='fixed w-full h-[80px] flex justify-between items-center px-20 bg-black text-gray-300'>
 
             <div>
                 <img src={Logo} alt='WagnerOna logo' style={{ width: '80px' }} />
@@ -17,7 +17,7 @@ const Navbar = () => {
 
             {/* full navbar */}
 
-            <ul className='hidden md:flex'>
+            <ul className='hidden md:flex '>
                 <li>Home</li>
                 <li>About</li>
                 <li>Projects</li>
@@ -56,7 +56,7 @@ const Navbar = () => {
 
             {/* social icons */}
             <div className='hidden'></div>
-        </div>
+        </header>
     )
 }
 
