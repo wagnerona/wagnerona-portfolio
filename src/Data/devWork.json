@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Team profile Generator",
+    "image": "https://raw.githubusercontent.com/wagnerona/team-profile-generator/main/assets/preview.png",
+    "deploy": "/",
+    "code": "https://github.com/wagnerona/team-profile-generator"
+  },
+  {
+    "id": 2,
+    "name": "Weather Dashboard",
+    "image": "https://raw.githubusercontent.com/wagnerona/weather-dashboard/main/assets/Images/Usage.png",
+    "deploy": "https://wagnerona.github.io/weather-dashboard/",
+    "code": "https://github.com/wagnerona/weather-dashboard"
+  }
+]
