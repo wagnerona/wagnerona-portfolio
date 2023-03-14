@@ -16,7 +16,21 @@
     a {
         @apply  hover:text-red-500 hover:scale-110
     }
-    /* #social {
-        padding: 5px;
-    } */
+}
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+
+}
+
+.content-div:hover {
+    transition: 0.3s ease-in-out;
+    background-image: linear-gradient(
+        to right,
+        rgba(233, 88, 88, 0.822),
+        hsla(0, 86%, 62%, 0.781)
+    )!important;
 }

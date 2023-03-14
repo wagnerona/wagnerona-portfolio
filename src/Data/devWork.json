@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Team profile Generator",
     "image": "https://raw.githubusercontent.com/wagnerona/team-profile-generator/main/assets/preview.png",
-    "deploy": "/",
+    "deploy": "https://github.com/wagnerona/team-profile-generator",
     "code": "https://github.com/wagnerona/team-profile-generator"
   },
   {
@@ -12,5 +12,33 @@
     "image": "https://raw.githubusercontent.com/wagnerona/weather-dashboard/main/assets/Images/Usage.png",
     "deploy": "https://wagnerona.github.io/weather-dashboard/",
     "code": "https://github.com/wagnerona/weather-dashboard"
+  },
+  {
+    "id": 3,
+    "name": "Day Scheduler",
+    "image": "https://raw.githubusercontent.com/wagnerona/work-day-scheduler/main/images/Preview.png",
+    "deploy": "https://wagnerona.github.io/work-day-scheduler/",
+    "code": "https://github.com/wagnerona/work-day-scheduler"
+  },
+  {
+    "id": 4,
+    "name": "Travel Companion (API)",
+    "image": "https://raw.githubusercontent.com/whydidIchoosephysics/Travel-Companion/preview-png/assets/Images/Home%20Preview.png",
+    "deploy": "https://whydidichoosephysics.github.io/Travel-Companion/",
+    "code": "https://github.com/whydidIchoosephysics/Travel-Companion/"
+  },
+  {
+    "id": 5,
+    "name": "JS code quiz",
+    "image": "https://raw.githubusercontent.com/wagnerona/js-code-quiz/main/assets/gif/Test-png.png",
+    "deploy": "https://wagnerona.github.io/js-code-quiz/index.html",
+    "code": "https://github.com/wagnerona/js-code-quiz"
+  },
+  {
+    "id": 6,
+    "name": "Password generator",
+    "image": "https://raw.githubusercontent.com/wagnerona/password-generator/main/assets/Images/Myscreenshot.png",
+    "deploy": "https://wagnerona.github.io/password-generator/",
+    "code": "https://github.com/wagnerona/password-generator"
   }
 ]
