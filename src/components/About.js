@@ -27,7 +27,7 @@ const About = () => {
                             <p className='text-2xl sm-text-7xl py-4 max-w-[700px] font-bold text-'>Product design
                             </p>
                             <p className='text-xl sm:text-base py-2 max-w-[700px] text-gray-300'>The main focus relies on user experience and a passion for innovation</p>
-                            <a href='/'>
+                            <a href='/webWork'>
                                 Tell me more
                             </a>
                         </div>
@@ -36,7 +36,7 @@ const About = () => {
                             <p className='text-2xl sm-text-7xl py-4 max-w-[700px] font-bold text-'>Web Development
                             </p>
                             <p className='text- py-2 max-w-[700px] text-gray-300'>The main focus relies on user experience and a passion for innovation</p>
-                            <a href='/'>
+                            <a href='/webWork'>
                                 Tell me more
                             </a>
                         </div>

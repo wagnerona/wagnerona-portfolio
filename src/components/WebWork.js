@@ -5,7 +5,7 @@ import WorkCard from './WorkCard'
 //Component
 const WebWork = () => {
   return (
-    <div name='work' className='w-full md:h-screen bg-[#4A5B61]'>
+    <div name='work' className='w-full md:h-screen bg-stone-100'>
 
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>

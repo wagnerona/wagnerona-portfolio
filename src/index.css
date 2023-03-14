@@ -30,7 +30,7 @@
     transition: 0.3s ease-in-out;
     background-image: linear-gradient(
         to right,
-        rgba(233, 88, 88, 0.822),
-        hsla(0, 86%, 62%, 0.781)
+        rgba(185, 32, 32, 0.822),
+        hsla(0, 71%, 42%, 0.781)
     )!important;
 }

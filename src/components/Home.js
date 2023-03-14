@@ -2,7 +2,7 @@ import React from 'react'
 import { MdOutlineArrowCircleRight } from "react-icons/md";
 const Home = () => {
   return (
-    <div name=' Home' className='w-full h-screen bg-slate-300'>
+    <div name=' Home' className='w-full h-screen bg-stone-100'>
 
       {/* container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>

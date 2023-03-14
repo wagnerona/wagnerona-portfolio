@@ -4,7 +4,7 @@ import React from 'react'
 function WorkCard(props) {
   return (
 
-    <div style={{ backgroundImage: `url(${props.image})` }} className='shadow-lg shadow-[#333333] group container rounded-md 
+    <div style={{ backgroundImage: `url(${props.image})` }} className='shadow-md shadow-[#8a8a8a] group container rounded-lg 
     flex justify-center text-center items-center mx-auto content-div'>
 
       {/* Hover effect */}
