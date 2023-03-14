@@ -4,6 +4,7 @@ import About from "./components/About";
 import WebSkills from "./components/WebSkills";
 import WebWork from "./components/WebWork";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <WebSkills />
       <WebWork />
       <Contact />
+      <Footer />
     </div>
   );
 }
