@@ -16,6 +16,7 @@ const Navbar = () => {
             </div>
 
             {/* full navbar */}
+            
 
             <ul className='hidden md:flex '>
                 <li>Home</li>
@@ -59,5 +60,6 @@ const Navbar = () => {
         </header>
     )
 }
+
 
 export default Navbar
