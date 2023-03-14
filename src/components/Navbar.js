@@ -19,10 +19,18 @@ const Navbar = () => {
             
 
             <ul className='hidden md:flex '>
-                <li>Home</li>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li>
+                    <a href='/'>Home</a>
+                </li>
+                <li>
+                <a href='/about'>About</a>
+                </li>
+                <li>
+                <a href='/webWork'>Work</a>
+                </li>
+                <li>
+                <a href='/contact'>Contact</a>
+                </li>
             </ul>
 
             <div id='social' className='flex space-x-4' >
@@ -49,10 +57,18 @@ const Navbar = () => {
 
             {/* small screens */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-black/75 flex flex-col justify-center items-center'}>
-                <li className='py-6 text-5xl'>Home</li>
-                <li className='py-6 text-5xl'>About</li>
-                <li className='py-6 text-5xl'>Projects</li>
-                <li className='py-6 text-5xl'>Contact</li>
+                <li className='py-6 text-5xl'>
+                <a href='/'>Home</a>
+                </li>
+                <li className='py-6 text-5xl'>
+                <a href='/about'>About</a>
+                </li>
+                <li className='py-6 text-5xl'>
+                <a href='/webWork'>Work</a>
+                </li>
+                <li className='py-6 text-5xl'>
+                <a href='/contact'>Contact</a>
+                </li>
             </ul>
 
             {/* social icons */}
