@@ -7,31 +7,31 @@
   {
     "id": 2,
     "name": "CSS",
-    "image": "../assets/CSS.png"
+    "image": "https://cdn-icons-png.flaticon.com/512/732/732190.png"
   },
   {
     "id": 3,
     "name": "JS",
-    "image": "../assets/JS.png"
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
   },
   {
     "id": 4,
     "name": "NODE JS",
-    "image": "../assets/NODEJS.png"
+    "image": "https://cdn.iconscout.com/icon/free/png-512/node-js-1174925.png?f=avif&w=256"
   },
   {
     "id": 5,
     "name": "GITHUB",
-    "image": "../assets/GITHUB.png"
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111432.png"
   },
   {
     "id": 6,
     "name": "REACT",
-    "image": "../assets/REACT.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/120px-React-icon.svg.png"
   },
   {
     "id": 7,
     "name": "TAILWIND CSS",
-    "image": "../assets/TAILWIND.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/600px-Tailwind_CSS_Logo.svg.png?20211001194333"
   }
 ]
