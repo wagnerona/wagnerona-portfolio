@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const About = () => {
     return (
@@ -27,18 +28,14 @@ const About = () => {
                             <p className='text-2xl sm-text-7xl py-4 max-w-[700px] font-bold text-'>Product design
                             </p>
                             <p className='text-xl sm:text-base py-2 max-w-[700px] text-gray-300'>The main focus relies on user experience and a passion for innovation</p>
-                            <a href='/webWork'>
-                                Tell me more
-                            </a>
+                            <Link to='/wagnerona-portfolio/webWork'>Tell me more</Link>
                         </div>
-                        <hr className='my-10 border-gray-500'/>
+                        <hr className='my-10 border-gray-500' />
                         <div>
                             <p className='text-2xl sm-text-7xl py-4 max-w-[700px] font-bold text-'>Web Development
                             </p>
                             <p className='text- py-2 max-w-[700px] text-gray-300'>The main focus relies on user experience and a passion for innovation</p>
-                            <a href='/webWork'>
-                                Tell me more
-                            </a>
+                            <Link to='/wagnerona-portfolio/webWork'>Tell me more</Link>
                         </div>
                     </div>
                 </div>
