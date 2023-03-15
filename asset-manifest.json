@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/wagnerona-portfolio/static/css/main.73117ee1.css",
-    "main.js": "/wagnerona-portfolio/static/js/main.19822191.js",
+    "main.css": "/wagnerona-portfolio/static/css/main.412fc9cb.css",
+    "main.js": "/wagnerona-portfolio/static/js/main.9d7175c4.js",
     "static/media/Wagner-Ona-Web-Design-CV.pdf": "/wagnerona-portfolio/static/media/Wagner-Ona-Web-Design-CV.7673da62e486d464df34.pdf",
     "index.html": "/wagnerona-portfolio/index.html",
-    "main.73117ee1.css.map": "/wagnerona-portfolio/static/css/main.73117ee1.css.map",
-    "main.19822191.js.map": "/wagnerona-portfolio/static/js/main.19822191.js.map"
+    "main.412fc9cb.css.map": "/wagnerona-portfolio/static/css/main.412fc9cb.css.map",
+    "main.9d7175c4.js.map": "/wagnerona-portfolio/static/js/main.9d7175c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.73117ee1.css",
-    "static/js/main.19822191.js"
+    "static/css/main.412fc9cb.css",
+    "static/js/main.9d7175c4.js"
   ]
 }
