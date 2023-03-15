@@ -27,7 +27,7 @@ It will also use navigation with `React Router` and dynamic rendering of compone
 
 ## Preview of work 
 
-  <img src = "assets/preview.png">
+  <img src = "src/assets/preview.png">
 
   
 ## Usage
