@@ -20,16 +20,16 @@ const Navbar = () => {
 
             <ul className='hidden md:flex '>
                 <li>
-                    <a href='/'>Home</a>
+                    <a href='/wagnerona-portfolio'>Home</a>
                 </li>
                 <li>
-                <a href='/about'>About</a>
+                <a href='/wagnerona-portfolio/about'>About</a>
                 </li>
                 <li>
-                <a href='/webWork'>Work</a>
+                <a href='/wagnerona-portfolio/webWork'>Work</a>
                 </li>
                 <li>
-                <a href='/contact'>Contact</a>
+                <a href='/wagnerona-portfolio/contact'>Contact</a>
                 </li>
             </ul>
 
