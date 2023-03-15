@@ -13,20 +13,21 @@ const WebWork = () => {
           <p className='text-4xl font-bold inline border-b-4 border-red-500 '>Web Work</p>
           <p className='py-6'>These are some of the many apps I have built</p>
         </div>
-        
+
         {/* Dynamic cards */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-        {devWork.map((devWork) => {
-          return (
-            <WorkCard
-              image={devWork.image}
-              name={devWork.name}
-              deploy={devWork.deploy}
-              code={devWork.code}
-            />
-          )
-        })
-        }
+          {devWork.map((devWork) => {
+            return (
+              <WorkCard
+                key={devWork.id}
+                image={devWork.image}
+                name={devWork.name}
+                deploy={devWork.deploy}
+                code={devWork.code}
+              />
+            )
+          })
+          }
         </div>
       </div>
     </div>
