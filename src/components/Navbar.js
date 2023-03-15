@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import Logo from '../assets/logo.png'
 import { MdDensityMedium, MdClose } from "react-icons/md";
 import { FaLinkedin, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
@@ -20,16 +21,16 @@ const Navbar = () => {
 
             <ul className='hidden md:flex '>
                 <li>
-                    <a href='/wagnerona-portfolio'>Home</a>
+                    <Link to='/wagnerona-portfolio'>Home</Link>
                 </li>
                 <li>
-                <a href='/wagnerona-portfolio/about'>About</a>
+                    <Link to='/wagnerona-portfolio/about'>About</Link>
                 </li>
                 <li>
-                <a href='/wagnerona-portfolio/webWork'>Work</a>
+                    <Link to='/wagnerona-portfolio/webWork'>Work</Link>
                 </li>
                 <li>
-                <a href='/wagnerona-portfolio/contact'>Contact</a>
+                    <Link to='/wagnerona-portfolio/contact'>Contact</Link>
                 </li>
             </ul>
 
@@ -58,16 +59,16 @@ const Navbar = () => {
             {/* small screens */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-black/75 flex flex-col justify-center items-center'}>
                 <li className='py-6 text-5xl'>
-                <a href='/'>Home</a>
+                    <Link to='/'>Home</Link>
                 </li>
                 <li className='py-6 text-5xl'>
-                <a href='/about'>About</a>
+                    <Link to='/about'>About</Link>
                 </li>
                 <li className='py-6 text-5xl'>
-                <a href='/webWork'>Work</a>
+                    <Link to='/webWork'>Work</Link>
                 </li>
                 <li className='py-6 text-5xl'>
-                <a href='/contact'>Contact</a>
+                    <Link to='/contact'>Contact</Link>
                 </li>
             </ul>
 
@@ -76,6 +77,5 @@ const Navbar = () => {
         </header>
     )
 }
-
 
 export default Navbar
