@@ -9,6 +9,8 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
 
+    const handleLinkClick = () => setNav(false)
+
     return (
         <header className='fixed w-full h-[80px] flex justify-between items-center px-20 bg-neutral-800 text-gray-300'>
 
@@ -57,18 +59,18 @@ const Navbar = () => {
 
 
             {/* small screens */}
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-black/75 flex flex-col justify-center items-center'}>
+            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-black/90 flex flex-col justify-center items-center'}>
                 <li className='py-6 text-5xl'>
-                    <Link to='/'>Home</Link>
+                    <Link to='/wagnerona-portfolio' onClick={handleLinkClick}>Home</Link>
                 </li>
                 <li className='py-6 text-5xl'>
-                    <Link to='/about'>About</Link>
+                    <Link to='/wagnerona-portfolio/about' onClick={handleLinkClick}>About</Link>
                 </li>
                 <li className='py-6 text-5xl'>
-                    <Link to='/webWork'>Work</Link>
+                    <Link to='/wagnerona-portfolio/webWork' onClick={handleLinkClick}>Work</Link>
                 </li>
                 <li className='py-6 text-5xl'>
-                    <Link to='/contact'>Contact</Link>
+                    <Link to='/wagnerona-portfolio/contact' onClick={handleLinkClick}>Contact</Link>
                 </li>
             </ul>
 
