@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../assets/Wagner-Ona-CV.pdf'
+import CV from '../assets/WagnerOna_CV.pdf'
 import { MdFileDownload } from 'react-icons/md';
 
 const Footer = () => {
