@@ -1,5 +1,12 @@
 [
   {
+    "id": 6,
+    "name": "CineMatch / Discover movies",
+    "image": "https://raw.githubusercontent.com/wagnerona/cine-match-app/main/src/images/swipe-preview.png",
+    "deploy": "https://cinematch.netlify.app/",
+    "code": "https://github.com/wagnerona/cine-match-app"
+  },
+  {
     "id": 1,
     "name": "Team profile Generator",
     "image": "https://raw.githubusercontent.com/wagnerona/team-profile-generator/main/assets/preview.png",
@@ -33,12 +40,5 @@
     "image": "https://raw.githubusercontent.com/wagnerona/js-code-quiz/main/assets/gif/Test-png.png",
     "deploy": "https://wagnerona.github.io/js-code-quiz/index.html",
     "code": "https://github.com/wagnerona/js-code-quiz"
-  },
-  {
-    "id": 6,
-    "name": "Password generator",
-    "image": "https://raw.githubusercontent.com/wagnerona/password-generator/main/assets/Images/Myscreenshot.png",
-    "deploy": "https://wagnerona.github.io/password-generator/",
-    "code": "https://github.com/wagnerona/password-generator"
   }
 ]
