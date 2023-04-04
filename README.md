@@ -5,7 +5,7 @@
 For this challenge, I will utilize what I have learned in `Module 13: React` to develop the initial scaffolding of my portfolio site. Now that I've worked with React and have multiple projects to share, it's time for me to create the initial scaffolding for my first portfolio site, as well as update and create other materials to showcase my skills to potential employers. By creating a portfolio using React, I can set myself apart from other developers whose portfolios do not use some of the latest technologies.
 
 ## Deployed application here:
-https://wagnerona.github.io/wagnerona-portfolio/
+https://wagnerona.netlify.app/
 
 
 ## Table of contents
