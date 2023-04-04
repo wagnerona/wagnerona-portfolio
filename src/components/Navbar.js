@@ -14,12 +14,14 @@ const Navbar = () => {
     return (
         <header className='fixed w-full h-[80px] flex justify-between items-center px-5 sm:px-20 bg-neutral-800 text-gray-300'>
 
-            <div>
-                <img src={Logo} alt='WagnerOna logo' style={{ width: '80px' }} />
-            </div>
+            <Link to='/'>
+                <div>
+                    <img src={Logo} alt='WagnerOna logo' style={{ width: '80px' }} />
+                </div>
+            </Link>
 
             {/* full navbar */}
-            
+
 
             <ul className='hidden md:flex '>
                 <li>
@@ -37,16 +39,16 @@ const Navbar = () => {
             </ul>
 
             <div id='social' className='flex space-x-4' >
-                <a href='https://www.linkedin.com/in/wagnerona/' target = '_blank' rel="noreferrer">
+                <a href='https://www.linkedin.com/in/wagnerona/' target='_blank' rel="noreferrer">
                     <FaLinkedin />
                 </a>
-                <a href='https://github.com/wagnerona' target = '_blank' rel="noreferrer">
+                <a href='https://github.com/wagnerona' target='_blank' rel="noreferrer">
                     <FaGithub />
                 </a>
-                <a href='/' target = '_blank' rel="noreferrer">
+                <a href='/' target='_blank' rel="noreferrer">
                     <FaInstagram />
                 </a>
-                <a href='https://wa.me/+447751862182' target = '_blank' rel="noreferrer">
+                <a href='https://wa.me/+447751862182' target='_blank' rel="noreferrer">
                     <FaWhatsapp />
                 </a>
             </div>
