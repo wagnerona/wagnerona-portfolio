@@ -6,7 +6,7 @@
 
 @layer base {
     body {
-        @apply font-[Poppins];
+        @apply font-[Poppins] !important;
     }
     li {
         @apply px-4;
