@@ -14,10 +14,10 @@ const Home = () => {
           <div>
             <p className='text-red-800'>Hi, my name is</p>
             <h1 className='text-5xl sm:text-7xl font-bold text-'>Wagner</h1>
-            <h2 className='text-4xl py-4 max-w-[700px] font-bold text-gray-'>I am a product designer & Full Stack Web Developer.</h2>
+            <h2 className='text-4xl py-4 max-w-[700px] font-bold text-gray-'>I am a product designer & Front End Web Developer.</h2>
             <p className='text- py-2 max-w-[700px]'>The main focus of my work relies on user experience and a passion for innovation</p>
             <div>
-              <Link to='/wagnerona-portfolio/webWork'>
+              <Link to='/webWork'>
                 <button className='border-2 border-black px-6 py-3 my-2 flex items-center hover:bg-red-500 text-black hover:scale-110 duration-500 hover:border-red-500' >
                   <span className='mr-3'>View Work</span>
                   <MdOutlineArrowCircleRight />

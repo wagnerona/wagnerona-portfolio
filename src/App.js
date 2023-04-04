@@ -12,18 +12,18 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/wagnerona-portfolio" element={<Home />} />
-        <Route path="/wagnerona-portfolio/about" element={<About />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         {/* <Route path="/webSkills" element={<WebSkills />} /> */}
 
-        <Route path="/wagnerona-portfolio/webWork" element={
+        <Route path="/webWork" element={
           <div>
             <WebWork />
             <WebSkills />
           </div>
         } />
 
-        <Route path="/wagnerona-portfolio/contact" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </>

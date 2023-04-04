@@ -23,16 +23,16 @@ const Navbar = () => {
 
             <ul className='hidden md:flex '>
                 <li>
-                    <Link to='/wagnerona-portfolio'>Home</Link>
+                    <Link to='/'>Home</Link>
                 </li>
                 <li>
-                    <Link to='/wagnerona-portfolio/about'>About</Link>
+                    <Link to='/about'>About</Link>
                 </li>
                 <li>
-                    <Link to='/wagnerona-portfolio/webWork'>Work</Link>
+                    <Link to='/webWork'>Work</Link>
                 </li>
                 <li>
-                    <Link to='/wagnerona-portfolio/contact'>Contact</Link>
+                    <Link to='/contact'>Contact</Link>
                 </li>
             </ul>
 
@@ -61,16 +61,16 @@ const Navbar = () => {
             {/* small screens */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-black/90 flex flex-col justify-center items-center'}>
                 <li className='py-6 text-5xl'>
-                    <Link to='/wagnerona-portfolio' onClick={handleLinkClick}>Home</Link>
+                    <Link to='/' onClick={handleLinkClick}>Home</Link>
                 </li>
                 <li className='py-6 text-5xl'>
-                    <Link to='/wagnerona-portfolio/about' onClick={handleLinkClick}>About</Link>
+                    <Link to='/about' onClick={handleLinkClick}>About</Link>
                 </li>
                 <li className='py-6 text-5xl'>
-                    <Link to='/wagnerona-portfolio/webWork' onClick={handleLinkClick}>Work</Link>
+                    <Link to='/webWork' onClick={handleLinkClick}>Work</Link>
                 </li>
                 <li className='py-6 text-5xl'>
-                    <Link to='/wagnerona-portfolio/contact' onClick={handleLinkClick}>Contact</Link>
+                    <Link to='/contact' onClick={handleLinkClick}>Contact</Link>
                 </li>
             </ul>
 

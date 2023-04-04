@@ -3,13 +3,13 @@ import React from 'react'
 const Contact = () => {
     return (
         <div name='contact' className='w-full h-screen bg-stone-100 flex justify-center items-center p-4'>
-            <form className='flex flex-col max-w-[600px] w-full'>
+            <form method='POST' action="https://getform.io/f/0a990cbf-200a-4a59-af2a-3caf18b2cb1a" className='flex flex-col max-w-[600px] w-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-red-500 '>Contact</p>
                     <p className=' py-6
                     '> If you would like to get in touch you can submit the following form, alternatively you can check any of my socials on the top right or email me at: <br />
-                     wagnerolarco@gmail.com 
-                     </p>
+                        wagnerolarco@gmail.com
+                    </p>
                 </div>
                 <input className='bg-neutral-200 p-2' type="text" placeholder='Name' name='name' />
                 <input className='my-4 p-2 bg-neutral-200' type="email" placeholder='Email' name='email' />

@@ -30,14 +30,14 @@ const About = () => {
                             <p className='text-2xl  py-4 max-w-[700px] font-bold text-'>Product design
                             </p>
                             <p className='text-xl sm:text-base py-2 max-w-[700px] text-gray-300'>The main focus relies on user experience and a passion for innovation</p>
-                            <Link to='/wagnerona-portfolio/webWork'>Tell me more</Link>
+                            <Link to='/webWork'>Tell me more</Link>
                         </div>
                         <hr className='my-10 border-gray-500' />
                         <div>
                             <p className='text-2xl  py-4 max-w-[700px] font-bold text-'>Web Development
                             </p>
                             <p className='text-xl sm:text-base py-2 max-w-[700px] text-gray-300'>The main focus relies on user experience and a passion for innovation</p>
-                            <Link to='/wagnerona-portfolio/webWork'>Tell me more</Link>
+                            <Link to='/webWork'>Tell me more</Link>
                         </div>
                     </div>
                 </div>
