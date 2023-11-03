@@ -28,13 +28,6 @@
     "code": "https://github.com/wagnerona/work-day-scheduler"
   },
   {
-    "id": 4,
-    "name": "Travel Companion (API)",
-    "image": "https://raw.githubusercontent.com/whydidIchoosephysics/Travel-Companion/preview-png/assets/Images/Home%20Preview.png",
-    "deploy": "https://whydidichoosephysics.github.io/Travel-Companion/",
-    "code": "https://github.com/whydidIchoosephysics/Travel-Companion/"
-  },
-  {
     "id": 5,
     "name": "JS code quiz",
     "image": "https://raw.githubusercontent.com/wagnerona/js-code-quiz/main/assets/gif/Test-png.png",

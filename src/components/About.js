@@ -36,9 +36,11 @@ const About = () => {
                         <div>
                             <p className='text-2xl  py-4 max-w-[700px] font-bold text-'>Web Development
                             </p>
-                            <p className='text-xl sm:text-base py-2 max-w-[700px] text-gray-300'>As of April 23' I have successfully completed edX bootcamp in Front End Web development </p>
+                            <p className='text-xl sm:text-base py-2 max-w-[700px] text-gray-300'>As of April 23' I have completed edX bootcamp in Front End Web development and since May 23' I am
+                             working fulltime work MMGY global as a FE Web Developer. </p>
                             <Link to='/webWork'>Tell me more</Link>
                         </div>
+
                     </div>
                 </div>
             </div>
